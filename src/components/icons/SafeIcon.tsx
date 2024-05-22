@@ -1,3 +1,5 @@
+import { TIconProps } from "./Icon.types";
+
 export const SafeIcon = ({
     className,
     color = "currentColor"
