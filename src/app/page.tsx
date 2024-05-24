@@ -1,6 +1,7 @@
 import { InfoCardContainer } from "@/components/InfoCardContainer";
 import { getGasInfo } from "@/services/local/getGasInfo";
 
+export const dynamic = 'force-dynamic' // defaults to auto
 export default async function Home() {
 
     const gasInfoResponse = await getGasInfo();

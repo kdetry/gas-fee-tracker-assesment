@@ -19,7 +19,7 @@ export const fetchApi = ({
         },
         body: JSON.stringify(body),
         next: {
-            revalidate: 10
+            revalidate: 5
         }
     }).then(response => {
         if (!response.ok) {
