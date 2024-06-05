@@ -4,6 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 First, run the development server:
 
+Copy the env file and create `env.development` for your dev env. Add your etherscan api key as the `API_KEY` and localhost URL as the `NEXT_PUBLIC_APP_URL` into the file.
+
 ```bash
 npm run dev
 ```
